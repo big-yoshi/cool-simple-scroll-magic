@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat";
+}
+
+.cover {
+  height: 100%;
+  width: 100%;
+  background: #CD281B;
+  overflow: hidden;
+}
+
+.cover .wrapper {
+  height: 100vh;
+  max-height: 100vh;
+  width: 100%;
+  display: grid;
+  position: relative;
+}
+
+.bg-car-color {
+  background: #232323;
+  height: 70vh;
+}
+
+.cover .wrapper .features {
+  align-self: end;
+  position: relative;
+  z-index: 100;
+  opacity: 0;
+  bottom: 30px;
+  justify-self: center;
+  width: 50%;
+  padding: 0;
+  height: 130px;
+  margin: 0;
+  background: #323232;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  place-items: center;
+}
+.cover .wrapper .features .feature {
+  text-align: center;
+  color: white;
+}
+.cover .wrapper .features .feature h2 {
+  margin: 12px;
+  padding: 0;
+  font-size: 15px;
+  font-weight: normal;
+}
+.cover .wrapper .features .feature span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cover .wrapper .logo {
+  justify-self: center;
+  place-self: center;
+  height: 250px;
+  position: absolute;
+  margin: 15px;
+  z-index: 1;
+}
+
+.cover .wrapper h1 {
+  align-self: center;
+  justify-self: center;
+  font-size: 170px;
+  opacity: 0;
+  position: absolute;
+  color: white;
+}
+
+.cover .wrapper .car {
+  height: 490px;
+  z-index: 11;
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  left: -50px;
+}
