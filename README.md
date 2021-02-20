@@ -2,3 +2,5 @@
 simple but cool scroll magic effect page
 # live preview
 [Link](https://big-yoshi.github.io/cool-simple-scroll-magic/)
+
+[codepen](https://codepen.io/fugi/full/pogBzBJ)
